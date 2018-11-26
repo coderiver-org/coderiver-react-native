@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "eslint": "./node_modules/.bin/eslint --ext .js ./",
-    "pre-commit": "npm run eslint"
+    "eslint": "./node_modules/.bin/eslint --ext .js ./"
   },
   "dependencies": {
     "global": "^4.3.2",
@@ -27,5 +26,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint"
+    }
   }
 }
