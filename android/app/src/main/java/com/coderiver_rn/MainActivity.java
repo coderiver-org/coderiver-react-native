@@ -1,4 +1,4 @@
-package com.coderiverrn;
+package com.coderiver_rn;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "CoderiverRN";
+        return "coderiver_rn";
     }
 }

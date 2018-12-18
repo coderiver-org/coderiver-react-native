@@ -1,3 +1,3 @@
-rootProject.name = 'CoderiverRN'
+rootProject.name = 'coderiver_rn'
 
 include ':app'

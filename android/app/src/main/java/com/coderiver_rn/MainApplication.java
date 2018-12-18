@@ -1,4 +1,4 @@
-package com.coderiverrn;
+package com.coderiver_rn;
 
 import android.app.Application;
 
