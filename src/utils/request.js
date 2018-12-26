@@ -18,12 +18,12 @@ const handleUrl = url => params => {
 let urlParams = ''
   if (params) {
     const paramsArray = Object.keys(params)
-    .map(key => `${key}=${encodeURIComponent(params[key])}`)
-  if (url.search(/\?/) === -1) {
-    urlParams = typeof params === 'object' ? `${url}?${paramsArray.join('&')}` : url
-  } else {
-    urlParams = `${url}&${paramsArray.join('&')}`
-  }
+      .map(key => `${key}=${encodeURIComponent(params[key])}`)
+    if (url.search(/\?/) === -1) {
+      urlParams = typeof params === 'object' ? `${url}?${paramsArray.join('&')}` : url
+    } else {
+      urlParams = `${url}&${paramsArray.join('&')}`
+    }
   }
   return urlParams || url
 }
