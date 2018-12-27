@@ -6,6 +6,10 @@
 
 [清单地址](https://www.teambition.com/project/5c19c0675f925300191243f5/tasks/scrum/5c19c0675f92530019124400)
 
+## 产品原型
+
+[原型地址](https://shimo.im/docs/2QrSUcSoHVQwEMlO/)
+
 ## 技术选型
 
 - 脚手架：react-native-cli
