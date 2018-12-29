@@ -1,5 +1,7 @@
 ![](https://avatars2.githubusercontent.com/u/46118421?s=400&u=428a96d53bb16788f49da9f39c08187755222644&v=4)
 
+> 操作前请先阅读README
+
 ## 任务清单地址
 
 开发任务请在清单里认领。
