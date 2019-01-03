@@ -1,10 +1,23 @@
 ![](https://avatars2.githubusercontent.com/u/46118421?s=400&u=428a96d53bb16788f49da9f39c08187755222644&v=4)
 
+
+# Coderiver
+
+> 操作前请先阅读README
+
 ## 任务清单地址
 
 开发任务请在清单里认领。
 
 [清单地址](https://www.teambition.com/project/5c19c0675f925300191243f5/tasks/scrum/5c19c0675f92530019124400)
+
+## 设计稿地址（蓝湖）
+
+[https://lanhuapp.com/url/eVm4n]( https://lanhuapp.com/url/eVm4n)
+
+## api mock 地址（easy-mock）
+
+[https://www.easy-mock.com/project/5c2d7e63873e4126e1daa237](https://www.easy-mock.com/project/5c2d7e63873e4126e1daa237)
 
 ## 产品原型
 
