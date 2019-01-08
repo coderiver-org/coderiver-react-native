@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/layout">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/launch_screen"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#18262A"
+        android:textSize="10sp"
+        android:text="CodrRiver©2018"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:paddingBottom="13dp"/>
+</FrameLayout>
