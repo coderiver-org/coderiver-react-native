@@ -73,19 +73,31 @@ function Item() {
 
 const BottomTabNavigator = createBottomTabNavigator({
   A: {
-    screen: A
+    screen: A,
+    navigationOptions: ({ navigation }) => ({
+      tabBarLabel: '首页'
+    })
   },
   B: {
-    screen: B
+    screen: B,
+    navigationOptions: ({ navigation }) => ({
+      tabBarLabel: '项目中心'
+    })
   },
   C: {
     screen: C
   },
   D: {
-    screen: D
+    screen: D,
+    navigationOptions: ({ navigation }) => ({
+      tabBarLabel: '英雄广场'
+    })
   },
   E: {
-    screen: E
+    screen: E,
+    navigationOptions: ({ navigation }) => ({
+      tabBarLabel: '发现'
+    })
   }
 })
 
