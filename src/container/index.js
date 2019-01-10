@@ -12,11 +12,14 @@ import {
   createBottomTabNavigator
 } from 'react-navigation'
 
+import Login from './Login'
+
 function HomeScreen(props) {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Text>Home Screen</Text>
       <Button onPress={() => props.navigation.replace('BottomTabNavigator')} title="跳转" />
+      <Button onPress={() => props.navigation.navigate('LoginPhone')} title="登录" />
     </View>
   )
 }
@@ -89,9 +92,24 @@ const BottomTabNavigator = createBottomTabNavigator({
   }
 })
 
+const UserNavigator = createStackNavigator({
+  Login: {
+    screen: Login,
+    navigationOptions: () => ({
+      headerTransparent: true,
+    })
+  }
+})
+
 const AppNavigator = createStackNavigator({
   Home: {
     screen: HomeScreen
+  },
+  UserNavigator: {
+    screen: UserNavigator,
+    navigationOptions: () => ({
+      header: null,
+    })
   },
   BottomTabNavigator: {
     screen: BottomTabNavigator
@@ -100,7 +118,7 @@ const AppNavigator = createStackNavigator({
     screen: Item
   }
 }, {
-  initialRouteName: 'BottomTabNavigator',
+  initialRouteName: 'UserNavigator',
 })
 
 export default createAppContainer(AppNavigator)
