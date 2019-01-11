@@ -4,10 +4,16 @@ import { Provider } from 'mobx-react/native'
 import App from './src/container'
 import store from './src/store'
 
+import NavigationService from './src/utils/navigationService'
+
 function Index() {
   return (
     <Provider {...store}>
-      <App />
+      <App
+        ref={navigatorRef => {
+          NavigationService.setTopLevelNavigator(navigatorRef)
+        }}
+      />
     </Provider>
   )
 }

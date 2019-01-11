@@ -8,6 +8,7 @@
     "eslint": "./node_modules/.bin/eslint --ext .js ./"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "eslint-plugin-react-native-globals": "^0.1.2",
     "global": "^4.3.2",
     "mobx": "^5.8.0",
@@ -16,6 +17,7 @@
     "react": "^16.6.3",
     "react-native": "^0.57.8",
     "react-native-gesture-handler": "^1.0.12",
+    "react-native-progress": "^3.5.0",
     "react-navigation": "^3.0.8",
     "teaset": "^0.5.10"
   },
