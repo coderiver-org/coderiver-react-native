@@ -8,6 +8,7 @@ import {
   TouchableOpacity
 } from 'react-native'
 
+import UserState from '../../store/user'
 import withBg from '../../components/WithUserBackground'
 import UserFormItem from '../../components/UserFormItem'
 import UserTitle from '../../components/UserTitle'
@@ -54,18 +55,15 @@ class Login extends React.Component {
   }
 }
 
-Login.defaultProps = {
-  User: {
-    username: '',
-    password: ''
-  }
-}
+// Login.defaultProps = {
+//   User: {
+//     username: '',
+//     password: ''
+//   }
+// }
 
 Login.propTypes = {
-  User: PropTypes.shape({
-    username: PropTypes.string,
-    password: PropTypes.string
-  })
+  User: PropTypes.instanceOf(UserState)
 }
 
 const styles = StyleSheet.create({

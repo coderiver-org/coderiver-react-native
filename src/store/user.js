@@ -5,9 +5,9 @@ import NavigationService from '../utils/navigationService'
 import { user } from '../api'
 
 class UserState {
-  @observable username = ''
+  @observable username = 'king'
 
-  @observable password = ''
+  @observable password = 'kingking'
 
   @action
   changeValue(property ,value) {
