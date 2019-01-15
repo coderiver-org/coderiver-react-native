@@ -4,7 +4,8 @@ import React from 'react'
 import {
   View,
   Text,
-  Button
+  Button,
+  TouchableOpacity
 } from 'react-native'
 import {
   createStackNavigator,
@@ -13,6 +14,7 @@ import {
 } from 'react-navigation'
 
 import Login from './Login'
+import Guide from './Guide'
 
 function HomeScreen(props) {
   return (
@@ -97,8 +99,25 @@ const UserNavigator = createStackNavigator({
     screen: Login,
     navigationOptions: () => ({
       headerTransparent: true,
+      headerTintColor: '#fff'
+    })
+  },
+  Guide: {
+    screen: Guide,
+    navigationOptions: ({ navigation }) => ({
+      headerTransparent: true,
+      headerTruncatedBackTitle: '',
+      headerRight: (
+        <TouchableOpacity
+          onPress={() => navigation.navigate('Login')}
+        >
+          <Text style={{ marginRight: 25, color: '#fff', fontSize: 16 }}>登录</Text>
+        </TouchableOpacity>
+      )
     })
   }
+}, {
+  initialRouteName: 'Guide'
 })
 
 const AppNavigator = createStackNavigator({
@@ -118,7 +137,7 @@ const AppNavigator = createStackNavigator({
     screen: Item
   }
 }, {
-  initialRouteName: 'UserNavigator',
+  initialRouteName: 'UserNavigator'
 })
 
 export default createAppContainer(AppNavigator)
