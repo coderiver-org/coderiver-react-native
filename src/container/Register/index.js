@@ -1,3 +1,9 @@
+/*
+ * @Author: mcdowell
+ * @Date: 2019-01-18 00:40:55
+ * @Last Modified by: mcdowell
+ * @Last Modified time: 2019-01-18 01:09:17
+ */
 import React from 'react'
 import PropTypes from 'prop-types'
 import { inject, observer } from 'mobx-react'
