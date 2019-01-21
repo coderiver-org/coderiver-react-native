@@ -85,7 +85,7 @@ export const example = param => {
   git checkout develop
   yarn
   react-native run-ios
-  # or react-native run-andriod
+  # or react-native run-android
 ```
 
 ## 开发新功能
