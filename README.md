@@ -9,11 +9,11 @@
 
 开发任务请在清单里认领。
 
-[清单地址](https://www.teambition.com/project/5c19c0675f925300191243f5/tasks/scrum/5c19c0675f92530019124400)
+[清单地址](https://github.com/coderiver-org/coderiver-react-native/issues)
 
 ## 设计稿地址（蓝湖）
 
-[https://lanhuapp.com/url/eVm4n]( https://lanhuapp.com/url/eVm4n)
+[设计稿地址](https://lanhuapp.com/web/#/item/board?type=share_mark&pid=3038e712-7876-45a4-9375-422bbe9df2d6&param=da8cdc47-d42c-4ce6-a20b-10185e8333d7&activeSectionId=)
 
 ## api mock 地址（easy-mock）
 
